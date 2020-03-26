@@ -40,7 +40,7 @@ def main():
     #createRainbow()
     bwFilter(myImg)
     #swapGreenBlue(myImg)
-    #darken(myImg, 200)
+    #darken(myImg, 20)
 
     # Buit-in Filters
     #im1 = myImg.filter(ImageFilter.BLUR)
