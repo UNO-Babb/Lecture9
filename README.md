@@ -13,7 +13,7 @@ python3 -m pip install --upgrade Pillow
 If there are issues, try to trouble shoot.
 - Is pip installed?
 - Does it work if I type python rather than python3?
-- Is the current verison of python the default one?
+- Is the current version of python the default one?
 ```
 python --version
 ```
