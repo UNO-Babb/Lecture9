@@ -7,12 +7,12 @@ To edit images in python, we will need to install a third party module called Pi
 ### Installing Pillow
 At a command prompt, you should type the following commands:
 ```
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade Pillow
+python -m pip install --upgrade pip
+python -m pip install --upgrade Pillow
 ```
 If there are issues, try to trouble shoot.
 - Is pip installed?
-- Does it work if I type python rather than python3?
+- Does it work if I type python3 rather than python?
 - Is the current version of python the default one?
 ```
 python --version
