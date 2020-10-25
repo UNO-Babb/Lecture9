@@ -10,16 +10,16 @@ def createRainbow():
         for j in range(img.size[1]):    # For every row
             pixels[i,j] = (i, j, 100) # set the colour accordingly
 
-    img.show()
+    img.save("rainbow.png", 'png')
 
 def swapGreenBlue(img):
     #this function should swap the blue and green pixel values
-    img.show()
+    img.save("swapGB.png", 'png')
 
 def darken(img, amount):
     #this function should darken the r,g,b values by the amount
     #remember to not go below zero on any of the colors
-    img.show()
+    img.save("darkImg.png", 'png')
 
 def bwFilter(img):
     pixels = img.load() #Pixels is the pixel map, a 2-dimensional list of pixel data
@@ -30,9 +30,9 @@ def bwFilter(img):
             ave = (red + green + blue)//3
             pixels[x,y] = (ave, ave, ave, alpha)
 
-    img.show() #You could save the image if you wanted
+    #img.show() #You could save the image if you wanted
 
-    #img.save("bwImg.png", 'png')
+    img.save("bwImg.png", 'png')
 
 def main():
     #Open an image
