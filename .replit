@@ -1,5 +1,5 @@
 language = "python3"
-run = "python main.py"
+run = "python ImageFilters.py"
 
 [env]
 VIRTUAL_ENV = "/home/runner/${REPL_SLUG}/venv"
