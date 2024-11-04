@@ -3,7 +3,7 @@
 ## Image processing and manipulation
 To edit images in python, we will need to install a third party module called Pillow. Pillow is a tool that will allow us to access pixel-level data of common image file types.
 
-**This information is only needed if you are using Python on your computer and not via Repl.it but I wanted you to know how to do this if needed.**
+**This information is only needed if you are using Python on your computer and not via Code Spaces but I wanted you to know how to do this if needed.**
 
 [Pillow Documentation](https://pillow.readthedocs.io/en/latest/handbook/index.html)
 ### Installing Pillow

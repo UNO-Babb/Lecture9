@@ -30,21 +30,22 @@ def bwFilter(img):
       ave = (red + green + blue)//3
       pixels[x,y] = (ave, ave, ave, alpha)
 
-  #img.show() #You could save the image if you wanted
-
   img.save("bwImg.png", 'png')
 
 def main():
   #Open an image
   myImg = Image.open('durango.png')
+  #Add code 
+
+
   #createRainbow()
-  bwFilter(myImg)
+  #bwFilter(myImg)
   #swapGreenBlue(myImg)
   #darken(myImg, 20)
 
   # Buit-in Filters
   #im1 = myImg.filter(ImageFilter.BLUR)
-  #im1.show()
+  #im1.save("blurImg.png", 'png')
 
 if __name__ == '__main__':
   main()
