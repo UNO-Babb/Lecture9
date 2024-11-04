@@ -35,11 +35,10 @@ def bwFilter(img):
 def main():
   #Open an image
   myImg = Image.open('durango.png')
-  #Add code 
 
 
   #createRainbow()
-  #bwFilter(myImg)
+  bwFilter(myImg)
   #swapGreenBlue(myImg)
   #darken(myImg, 20)
 
